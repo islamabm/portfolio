@@ -1,19 +1,17 @@
 {
   "name": "portfolio",
-  "homepage": "https://islamabm.github.io/gaper-orders-application",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "node server.js",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "start": "serve -s dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "serve": "^13.0.2",
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.88.16",
     "@react-three/fiber": "^8.15.11",
