@@ -142,7 +142,7 @@ const experiences = [
     {
         title: "Full stack developer",
         company_name: "LanWanIT",
-        icon: LanWanLogo,
+        icon: "https://res.cloudinary.com/dmox9pnnx/image/upload/v1701163717/LanWan_logo-01_nirnws.png",
         iconBg: "#383E56",
         date: "October 2023",
         points: [
